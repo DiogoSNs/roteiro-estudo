@@ -42,7 +42,7 @@ export default function TextoApoio({ tema, termoWiki }) {
     <div className="border border-zinc-200 rounded-lg p-4 bg-white">
       {/* Botão para testar os estados na apresentação */}
       <div className="flex items-center gap-2 mb-3 text-xs text-zinc-500 pb-2 border-b border-zinc-100">
-        <span>Estados (só no protótipo):</span>
+        <span>Teste:</span>
         <button
           type="button"
           onClick={() => { setCarregando(true); setErro(false); }}
