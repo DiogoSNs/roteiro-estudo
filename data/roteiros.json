@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1",
+    "titulo": "Frações no dia a dia",
+    "disciplina": "Matemática",
+    "ano": "6º ano",
+    "tema": "frações",
+    "tempoEstudo": "25 min",
+    "professorId": "prof-1",
+    "termoWiki": "Fração",
+    "explicacao": "Uma fração mostra uma parte de um todo. Quando você divide uma pizza em 8 pedaços e come 3, você comeu 3/8 da pizza. O número de baixo diz em quantas partes o todo foi dividido, e o de cima diz quantas partes você pegou.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Uma barra de chocolate tem 10 pedaços e você comeu 4. Que fração você comeu?",
+        "resposta": "4/10"
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Qual é maior: 1/2 ou 1/4?",
+        "resposta": "1/2"
+      },
+      {
+        "id": 3,
+        "pergunta": "3. Quantos quartos formam um inteiro?",
+        "resposta": "4 quartos"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "Como funciona a fotossíntese",
+    "disciplina": "Ciências",
+    "ano": "7º ano",
+    "tema": "fotossíntese",
+    "tempoEstudo": "30 min",
+    "professorId": "prof-2",
+    "termoWiki": "Fotossíntese",
+    "explicacao": "A fotossíntese é o processo pelo qual as plantas produzem seu próprio alimento. Utilizando a luz do sol captada pela clorofila, água do solo e gás carbônico do ar, a planta fabrica glicose e libera oxigênio essencial para a vida na Terra.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Qual é o principal pigmento das plantas que absorve a luz solar?",
+        "resposta": "Clorofila."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Quais são os principais produtos gerados na fotossíntese?",
+        "resposta": "Glicose (açúcar) e gás oxigênio."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. Qual gás presente no ar as plantas absorvem para realizar a fotossíntese?",
+        "resposta": "Gás carbônico (dióxido de carbono)."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "titulo": "A Revolução Industrial",
+    "disciplina": "História",
+    "ano": "8º ano",
+    "tema": "Revolução Industrial",
+    "tempoEstudo": "35 min",
+    "professorId": "prof-3",
+    "termoWiki": "Revolução_Industrial",
+    "explicacao": "Iniciada na Inglaterra no século XVIII, a Revolução Industrial substituiu o trabalho artesanal manual pelas máquinas a vapor movidas a carvão mineral. Essa transformação acelerou a produção e mudou totalmente as cidades e as relações de trabalho.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Em qual país teve início a Revolução Industrial no século XVIII?",
+        "resposta": "Inglaterra (Reino Unido)."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Qual fonte de energia e tipo de máquina impulsionaram as primeiras indústrias?",
+        "resposta": "Carvão mineral e a máquina a vapor."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. O que caracterizou a transição do trabalho artesanal para o fabril?",
+        "resposta": "A divisão detalhada do trabalho e o uso de máquinas nas fábricas."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "titulo": "Fusos horários",
+    "disciplina": "Geografia",
+    "ano": "9º ano",
+    "tema": "fusos horários",
+    "tempoEstudo": "20 min",
+    "professorId": "prof-4",
+    "termoWiki": "Fuso_horário",
+    "explicacao": "Como a Terra é redonda e gira 360° em aproximadamente 24 horas, o planeta foi dividido em 24 faixas chamadas fusos horários, cada uma com 15° de longitude. O Meridiano de Greenwich é o fuso de referência mundial (UTC 0).",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Quantos graus de longitude correspondem a uma diferença de 1 hora no relógio?",
+        "resposta": "15 graus de longitude."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Qual meridiano é adotado internacionalmente como referência para a contagem dos fusos?",
+        "resposta": "Meridiano de Greenwich."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. Quando nos deslocamos em direção ao leste (oriente), devemos adiantar ou atrasar os relógios?",
+        "resposta": "Adiantar as horas (+1h a cada fuso)."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "titulo": "Tipos de narrador",
+    "disciplina": "Português",
+    "ano": "6º ano",
+    "tema": "narrador",
+    "tempoEstudo": "20 min",
+    "professorId": "prof-5",
+    "termoWiki": "Narrador",
+    "explicacao": "O narrador é quem conta os acontecimentos do texto. Pode ser narrador-personagem (narra em 1ª pessoa e faz parte da história), narrador-observador (narra em 3ª pessoa apenas o que testemunha) ou narrador-onisciente (narra em 3ª pessoa e conhece pensamentos e sentimentos de todos os personagens).",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Qual narrador participa ativamente dos fatos e utiliza verbos e pronomes em 1ª pessoa?",
+        "resposta": "Narrador-personagem."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Qual a principal característica de um narrador-onisciente?",
+        "resposta": "Ele conhece tudo sobre o enredo, incluindo pensamentos e sentimentos dos personagens."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. O narrador-observador participa diretamente das ações que relata?",
+        "resposta": "Não, ele apenas testemunha e relata em 3ª pessoa sem participar."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "titulo": "Equação do 2º grau",
+    "disciplina": "Matemática",
+    "ano": "9º ano",
+    "tema": "equações",
+    "tempoEstudo": "40 min",
+    "professorId": "prof-1",
+    "termoWiki": "Equação_quadrática",
+    "explicacao": "Uma equação do 2º grau tem a forma ax² + bx + c = 0 (com a ≠ 0). Para resolvê-la, utilizamos o discriminante Delta (Δ = b² - 4ac) e a fórmula de Bhaskara para calcular os valores das raízes reais.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Qual é a expressão matemática para calcular o discriminante (delta)?",
+        "resposta": "Δ = b² - 4ac."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Se o discriminante for negativo (Δ < 0), quantas raízes reais a equação possui?",
+        "resposta": "Nenhuma raiz real."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. Na equação x² - 5x + 6 = 0, identifique os valores dos coeficientes a, b e c.",
+        "resposta": "a = 1, b = -5, c = 6."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "titulo": "Células e suas organelas",
+    "disciplina": "Ciências",
+    "ano": "8º ano",
+    "tema": "célula",
+    "tempoEstudo": "30 min",
+    "professorId": "prof-2",
+    "termoWiki": "Célula",
+    "explicacao": "A célula é a unidade básica e funcional de todos os seres vivos. Em seu interior, organelas desempenham funções vitais: as mitocôndrias produzem energia, os ribossomos fabricam proteínas e o núcleo guarda o material genético (DNA).",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Qual organela é responsável pela respiração celular e produção de energia?",
+        "resposta": "Mitocôndria."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Qual estrutura delimita a célula e controla a entrada e saída de substâncias?",
+        "resposta": "Membrana plasmática."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. Em células eucariontes, onde fica localizado o DNA?",
+        "resposta": "Dentro do núcleo celular."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "titulo": "Grandes Navegações",
+    "disciplina": "História",
+    "ano": "7º ano",
+    "tema": "Grandes Navegações",
+    "tempoEstudo": "25 min",
+    "professorId": "prof-3",
+    "termoWiki": "Era_dos_Descobrimentos",
+    "explicacao": "Durante os séculos XV e XVI, navegadores portugueses e espanhóis aventuraram-se pelo oceano em busca de rotas alternativas para as Índias, impulsionados pelo comércio de especiarias e apoiados em instrumentos de orientação como a bússola e o astrolábio.",
+    "questoes": [
+      {
+        "id": 1,
+        "pergunta": "1. Quais foram as duas primeiras nações europeias a liderar as Grandes Navegações marítimas?",
+        "resposta": "Portugal e Espanha."
+      },
+      {
+        "id": 2,
+        "pergunta": "2. Qual produto valioso os europeus buscavam no Oriente através das novas rotas?",
+        "resposta": "Especiarias (como pimenta, cravo, canela) e seda."
+      },
+      {
+        "id": 3,
+        "pergunta": "3. Cite dois instrumentos importantes para a orientação dos navegadores em alto-mar.",
+        "resposta": "Bússola e astrolábio."
+      }
+    ]
+  }
+]
