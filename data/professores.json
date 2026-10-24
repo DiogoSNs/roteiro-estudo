@@ -1,0 +1,32 @@
+[
+  {
+    "id": "prof-1",
+    "nome": "Carlos Eduardo Silva",
+    "disciplina": "Matemática",
+    "escola": "Escola Municipal Exemplo"
+  },
+  {
+    "id": "prof-2",
+    "nome": "Mariana Souza",
+    "disciplina": "Ciências",
+    "escola": "Escola Municipal Cecília Meireles"
+  },
+  {
+    "id": "prof-3",
+    "nome": "Ana Paula Ferreira",
+    "disciplina": "História",
+    "escola": "Escola Municipal Santos Dumont"
+  },
+  {
+    "id": "prof-4",
+    "nome": "Roberto Mendes",
+    "disciplina": "Geografia",
+    "escola": "Escola Municipal Darcy Ribeiro"
+  },
+  {
+    "id": "prof-5",
+    "nome": "Juliana Castro",
+    "disciplina": "Português",
+    "escola": "Escola Municipal Machado de Assis"
+  }
+]
