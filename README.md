@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Roteiros de Estudo
 
-## Getting Started
+Trabalho desenvolvido para a disciplina de Engenharia de Software / Desenvolvimento Web (Atividade Avaliativa A2).
 
-First, run the development server:
+**Integrantes:**
+- Diogo Augusto Silvério Nascimento - RA: 2586460
+- Silas Torres Rocha - RA: 2104644
 
+---
+
+## Sobre o Projeto
+
+Aplicação web desenvolvida com Next.js (App Router), React e Tailwind CSS para consulta de roteiros de estudos do 6º ao 9º ano. Os roteiros contam com questões de fixação, aviso de revisão por professores da rede e texto de apoio integrado à API pública da Wikipédia. Também possui uma área para os professores solicitarem novos roteiros.
+
+O projeto foi configurado com exportação estática (`output: 'export'`), sem back-end próprio nem banco de dados.
+
+---
+
+## Como Rodar o Projeto
+
+### 1. Instalar dependências
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Rodar em modo de desenvolvimento
+```bash
+npm run dev
+```
+Acesse pelo navegador em: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Gerar build estático
+```bash
+npm run build
+```
+O build estático será gerado na pasta `out/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*(Opcional: para quem usa Docker, incluímos os arquivos `Dockerfile`, `rodar-docker.bat` e `build-estatico-docker.bat`).*
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Onde encontrar os requisitos no código
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Dados em JSON:** estão na pasta `data/` (`roteiros.json` com 8 roteiros e `professores.json` com 5 professores relacionados por ID).
+- **Página Inicial (`app/page.js`):** listagem de roteiros com filtro por disciplina e ano usando `useState`.
+- **Rota Dinâmica (`app/roteiros/[id]/page.js`):** carrega o roteiro específico, exibe o professor revisor e busca o texto de apoio da Wikipédia. Usa `generateStaticParams()` para a exportação estática e trata roteiros inexistentes com 404.
+- **Texto de Apoio da Wikipédia (`components/TextoApoio.js`):** consome a API da Wikipédia e trata os 3 estados (carregando, sucesso e erro com botão para tentar novamente).
+- **Página de Pedido (`app/pedido/page.js` e `components/FormPedido.js`):** formulário controlado com validação dos campos (nome, e-mail institucional, ano, disciplina, quantidade de questões de 3 a 10 e data com pelo menos 7 dias de antecedência) e feedback de sucesso na tela.
+- **Componentes (`components/`):** todos os componentes foram criados por nós (`Cabecalho`, `Rodape`, `CardRoteiro`, `Filtros`, `SeloRevisor`, `QuestaoItem`, `TextoApoio` e `FormPedido`).
+- **Página 404 (`app/not-found.js`):** página personalizada para rotas e roteiros inexistentes.
+- **Relatórios:** na pasta `docs/` (`entrega1.pdf` e `entrega2.pdf`).
