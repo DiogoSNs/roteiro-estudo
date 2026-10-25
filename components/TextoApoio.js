@@ -12,6 +12,7 @@ export default function TextoApoio({ tema, termoWiki }) {
   const busca = termoWiki || tema;
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCarregando(true);
     setErro(false);
 
